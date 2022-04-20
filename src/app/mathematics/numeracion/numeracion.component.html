@@ -1,0 +1,31 @@
+
+<div class="card">
+    <h1>Ingresa un Numero</h1>
+    <p>
+        Para saber como se escribe un numero, ingresa el numero en sistema decimal
+    </p>
+    <label for="in">Numero En Base 10 </label>
+    
+        
+        <input type="number" [formControl]="valueNumber" id="valueIn" class="number_in">
+        <p *ngIf="valueNumber.errors && valueNumber.dirty">
+
+           <small *ngIf="valueNumber.hasError('required') && valueNumber.dirty">Campo Requerido</small> 
+           <small *ngIf="valueNumber.hasError('maxlength') && valueNumber.dirty">Excede el tamanio maximo permitido</small>
+           <small *ngIf="valueNumber.hasError('minlength') && valueNumber.dirty">Existe un minimo</small>
+           <!--small *ngIf="valueNumber.hasError('pattern') && valueNumber.dirty">El Dato Debe Ser Numerico</small-->
+           
+        
+        </p>
+    <!--/form-->
+    
+    
+    </div>
+<div class="card result">
+    <h5>Numero Maya</h5>
+    <p class="maya" id="result" #result>0</p>
+</div>
+<div class="card">
+<h5>Proceso</h5>
+    <p id="explain" class="pasos" #explain></p>
+</div>

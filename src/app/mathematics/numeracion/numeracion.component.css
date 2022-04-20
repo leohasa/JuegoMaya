@@ -1,0 +1,55 @@
+html {
+  font-size: 16px;
+}
+@font-face {
+  font-family: MayanNumerals;
+  src: url("/assets/BabelStoneMayanNumerals.woff2") format("woff2"),
+       url("/assets/BabelStoneMayanNumerals.woff") format("woff"),
+       url("/assets/BabelStoneMayanNumerals.ttf") format("truetype")
+        ;
+       
+}
+
+.maya {
+  font-family: MayanNumerals;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  -webkit-text-orientation: upright;
+  font-size: 2.5em;
+  margin: 25px;
+  border: #0f0f0f;
+  border-color: black;
+}
+.pasos{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.card {
+    all: unset;
+    border-radius: 4px;
+    border: 1px solid rgb(98, 85, 85);
+    background-color: rgb(150, 150, 150);
+    height: auto;
+    width: auto;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    line-height: 24px;
+}
+
+.number_in {
+	border: none;
+	border-bottom: 2px solid #333;
+	font-size: 1.25rem;
+	width: 20ch;
+	padding: 0.5em 1em;
+	transition: all 300ms linear;
+}
+.numbr_in:focus-within {
+	outline: none;
+	border-bottom: 2px solid #258ea6;
+}
