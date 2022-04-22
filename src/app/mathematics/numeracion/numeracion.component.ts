@@ -31,9 +31,11 @@ export class NumeracionComponent implements OnInit {
   numberVigesimal(num: any) {
     return num.toString(20).split("").map(function (s: any) { return parseInt(s, 20) });
   }
+  
   calculateNumber(value: any) {
     
     let mayaValue = this.numberVigesimal(value);
+
     let mayan = mayaValue.map(function (n: any) {
       return String.fromCharCode(0xD834, 0xDEE0 + n);
     }).join('');
@@ -46,7 +48,7 @@ export class NumeracionComponent implements OnInit {
         var expr =
           n === 0 ? "0" :
             n < 5 ? n % 5 :
-              n//"(" + (n / 5 | 0) + " x 5 + " + (n % 5) + ")"
+              n
               ;
 
         var power = mayaValue.length - i - 1;

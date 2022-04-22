@@ -33,7 +33,7 @@ html {
     width: auto;
     margin: 0 8px 16px;
     padding: 16px;
-    display: inline-block;
+    display: inline-blocks;
     flex-direction: row;
     justify-content: center;
     align-items: center;
