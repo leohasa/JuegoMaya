@@ -18,7 +18,7 @@ export class CalcComponent implements OnInit {
   button = false;
   showM = false;
   private valueTarget: number
-  private racha : number = 0;
+  private racha : number ;
 
   valueNumber = new FormControl("0", [Validators.required, Validators.pattern("\d"), Validators.maxLength(10), Validators.minLength(1)]);
 
@@ -62,7 +62,7 @@ export class CalcComponent implements OnInit {
       this.message.nativeElement.innerText = "Intentalo Nuevamente";
 
       if (event.container.data[0]["Valor"] == this.valueTarget) {
-        this.result.nativeElement.className = "succes";
+        this.result.nativeElement.className = "succes col-8";
         this.message.nativeElement.innerText = "Excelente!";
         this.button = true;
         this.racha += 1;
@@ -98,7 +98,7 @@ export class CalcComponent implements OnInit {
                   n
               ;
 
-            return String.fromCharCode(0xD834, 0xDEE0 + expr);
+            return String.fromCharCode(0xD834, 0xDEE0 + n);
 
 
           }

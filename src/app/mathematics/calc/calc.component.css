@@ -12,7 +12,7 @@
   writing-mode: vertical-rl;
   text-orientation: upright;
   -webkit-text-orientation: upright;
-  font-size: 5em;
+  font-size: 2.5em;
   margin: 25px;
   border: #0f0f0f;
   border-color: black;
@@ -25,22 +25,22 @@
 }
 
 .wrapper {
-    margin: 25px auto;
+    margin: 100% auto;
     max-width: 600px;
     text-align: center;
     padding: 0 20px;
 }
-
+/*
 .container {
     width: 45%;
     margin: 0 25px 25px 0;
     display: inline-block;
     vertical-align: top;
 }
-
+*/
 .r-list {
-    width: 80%;
-    border: solid 1px #ccc;
+    width: 100%;
+    border: solid 1px rgb(59, 54, 54);
     min-height: 60px;
     display: inline-block;
     background: white;
@@ -48,21 +48,30 @@
     overflow: hidden;
     margin-top: 25px;
 }
-
+.result{
+    width: 40%;
+}
 .number-list {
     padding: 20px 10px;
     border-bottom: solid 1px #ccc;
     color: rgba(0, 0, 0, 0.87);
-    display: flex;
+    display: inline ;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
     cursor: move;
     background: white;
-    font-size: 14px;
+    font-size: 30px;
 }
-
+.number_in {
+	border: none;
+	border-bottom: 2px solid #333;
+	font-size: 1.25rem;
+	/*width: 20ch;*/
+	padding: 0.5em 1em;
+	transition: all 300ms linear;
+}
 .cdk-drag-preview {
     box-sizing: border-box;
     border-radius: 4px;

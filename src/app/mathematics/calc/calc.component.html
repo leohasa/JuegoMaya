@@ -1,27 +1,54 @@
-<h2>Numero Maximo :</h2>
-<input type="number" [formControl]="valueNumber" id="valueIn" class="number_in">
-
 <div class="container">
-  <h2 #target></h2>
-  <div cdkDropList #rlist="cdkDropList" [cdkDropListData]="numberMayaList"
-    [cdkDropListConnectedTo]="[doneMovieList]" class="r-list" (cdkDropListDropped)="onDrop($event)">
-    <div class="number-list maya" *ngFor="let mayaList of numberMayaList" cdkDrag>{{mayaList["Representacion"]}}</div>
-  </div>
-</div>
-
-<div class="container">
-  <h2>Resultado</h2>
-  <div cdkDropList #doneMovieList="cdkDropList" [cdkDropListData]="resultList" [cdkDropListConnectedTo]="[rlist]"
-    class="r-list" (cdkDropListDropped)="onDropSuccess($event)">
-    <div class="number-list maya " *ngFor="let numberResult of resultList" cdkDrag>{{ numberResult["Representacion"] }}
+  <div class="row">
+    <div class="col-2"></div>
+    <div class="col-8">
+      <h2 class="card-header  text-center">Numero Maximo :</h2>
+      <br>
+      <input type="number" [formControl]="valueNumber" id="valueIn" class="number_in form-control">
     </div>
+    <div class="col-2"></div>
+    <br />
   </div>
-  <div   class="container" #result>
-    <h2 #mensaje></h2>
-  </div>
-  <div *ngIf="button">
 
-    <button value="Siguiente" (click)="siguiente()">siguiente </button>
+  <div class="row">
+    <!--div class="container"-->
+    <div class="col-2"></div>
+    <div class="col-6">
+      <h2 #target>Encuentra el Numero</h2>
+      <div cdkDropList #rlist="cdkDropList" [cdkDropListData]="numberMayaList" [cdkDropListConnectedTo]="[optionList]"
+        class="r-list" (cdkDropListDropped)="onDrop($event)">
+        <div class="number-list maya" *ngFor="let mayaList of numberMayaList" cdkDrag>{{mayaList["Representacion"]}}
+        </div>
+      </div>
+      <!--/div-->
+    </div>
+
+
+    <div class="col-4">
+      <h2>Resultado</h2>
+      <div cdkDropList #optionList="cdkDropList" [cdkDropListData]="resultList" [cdkDropListConnectedTo]="[rlist]"
+        class="r-list result" (cdkDropListDropped)="onDropSuccess($event)">
+        <div class="number-list maya " *ngFor="let numberResult of resultList" cdkDrag>{{ numberResult["Representacion"]
+          }}
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-2"></div>
+      <div class="col-2" #result></div>
+      <br><br>
+    <div class="row">
+      <div class="col-5"></div>
+      <div class="col-4" *ngIf="button">
+        <br>
+        <button  class="btn btn-primary" value="Siguiente" (click)="siguiente()">siguiente </button>
+      </div>
+      <div class="col-3"></div>
+    </div>  
+      
+    </div>
   </div>
 
 </div>
