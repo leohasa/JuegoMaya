@@ -1,0 +1,20 @@
+<div class="row mb-md-3 pb-2">
+    <div class="col-12 mb-1">
+        {{ title }}
+    </div>
+    <div class="col-12">
+        <div class="btn-group">
+            <ng-container *ngFor="let level of levelValues; let isFirst = first">
+                <button
+                    type="button"
+                    class="btn btn-primary"
+                    (click)="selectLevel(level)"
+                    [disabled]="(localStorage.getItem('started') == 'true')"
+                    [ngClass]="{ disabled: (localStorage.getItem('started') == 'true')}"
+                >
+                    {{ level }}
+                </button>
+            </ng-container>
+        </div>
+    </div>
+</div>
