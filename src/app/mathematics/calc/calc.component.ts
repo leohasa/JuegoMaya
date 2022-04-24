@@ -18,9 +18,9 @@ export class CalcComponent implements OnInit {
   button = false;
   showM = false;
   private valueTarget: number
-  private racha : number ;
+  private racha : number = 0;
 
-  valueNumber = new FormControl("0", [Validators.required, Validators.pattern("\d"), Validators.maxLength(10), Validators.minLength(1)]);
+  valueNumber = new FormControl("", [Validators.required, Validators.pattern("\d"), Validators.maxLength(10), Validators.minLength(1)]);
 
   constructor() {
     this.valueTarget = 0;

@@ -1,4 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    cursor:  url(./assets/chichen.png), auto;
+    /*background : url('https://maya.nmai.si.edu/sites/all/themes/mayatime/img/page-bg.png')*/
+    background: url('https://www.worldhistory.org/uploads/images/2307.jpg?v=1644985803');
+}
