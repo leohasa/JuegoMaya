@@ -6,8 +6,8 @@ import { NumeracionComponent } from './mathematics/numeracion/numeracion.compone
 
 const routes: Routes = [
   { path: 'math', component: MathematicsComponent },
-  { path: 'num', component: NumeracionComponent },
-  { path: 'calc', component: CalcComponent }
+  { path: 'math/num', component: NumeracionComponent },
+  { path: 'math/calc', component: CalcComponent }
 ];
 
 @NgModule({
