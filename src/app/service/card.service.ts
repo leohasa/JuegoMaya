@@ -6,7 +6,6 @@ import data from '../data/MayanData.json';
     providedIn: 'root',
 })
 export class CardService {
-
     dataCards: Array<Card>;
 
     constructor() {
@@ -17,17 +16,17 @@ export class CardService {
         let noCards = (level * level) / 2;
         let array: Array<Card> = new Array();
 
-        while(array.length < noCards) {
+        while (array.length < noCards) {
             let index = Math.floor(Math.random() * 39);
             let temp: Card = this.dataCards[index];
 
-            if(!array.find(e => e.id == temp.id)) {
+            if (!array.find((e) => e.id == temp.id)) {
                 array.push(temp);
             }
         }
 
         array = array.concat(array);
-        array = array.sort(() => (Math.random() - 0.5));
+        array = array.sort(() => Math.random() - 0.5);
 
         return array;
     }
