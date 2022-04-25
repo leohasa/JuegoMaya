@@ -9,13 +9,17 @@ import { CalcComponent } from './mathematics/calc/calc.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { ContentComponent } from './mathematics/content/content.component';
+import { BotonDinamicoComponent } from './boton-dinamico/boton-dinamico.component';
+import { JuegoEnlaceComponent } from './juegoEnlace/juegoEnlace.component';
 @NgModule({
   declarations: [
     AppComponent,
     MathematicsComponent,
     NumeracionComponent,
     CalcComponent,
-    ContentComponent
+    ContentComponent,
+    BotonDinamicoComponent,
+    JuegoEnlaceComponent
   ],
   imports: [
     BrowserModule,
