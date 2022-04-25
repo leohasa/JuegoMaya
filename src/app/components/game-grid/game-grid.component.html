@@ -1,6 +1,6 @@
-<!-- <div class="grid-container" style="height: 0; opacity: 0;" #gridContainer> -->
-<!--   <div *ngFor="let tile of getGameTiles()" -->
-<!--     class="grid-item" [ngClass]="getLevelClass()"> -->
-<!--     <app-tile-item [tile]="tile"></app-tile-item> -->
-<!--   </div> -->
-<!-- </div> -->
+<div *ngFor="let t of tarjetas; let i = index" class="row">
+    <div *ngFor="let tile of tarjetas; let j = index" class="col bg-secondary border">
+        <!-- <app-tile-item [tile]="tile"></app-tile-item> -->
+        <app-card-game [card]="randomCards[getIndex(i, j)]" [index]="getIndex(i,j)"></app-card-game>
+    </div>
+</div>

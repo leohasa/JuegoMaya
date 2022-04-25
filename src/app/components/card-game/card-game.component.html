@@ -1,0 +1,4 @@
+<div class="d-flex justify-content-center">
+    <img *ngIf="cardUp() || discovered" [src]="card.path" alt="" style="height: 50px; width: 50px" />
+    <img *ngIf="!cardUp()" (click)="up()" src="assets/img/haab.svg" alt="" style="height: 50px; width: 50px" />
+</div>

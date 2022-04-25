@@ -8,11 +8,11 @@
                 <button
                     type="button"
                     class="btn btn-primary"
-                    (click)="selectLevel(level)"
+                    (click)="selectLevel(level.valor)"
                     [disabled]="(localStorage.getItem('started') == 'true')"
                     [ngClass]="{ disabled: (localStorage.getItem('started') == 'true')}"
                 >
-                    {{ level }}
+                    {{ level.name }}
                 </button>
             </ng-container>
         </div>

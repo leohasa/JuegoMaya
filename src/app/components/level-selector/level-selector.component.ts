@@ -8,16 +8,20 @@ import { Component, OnInit } from '@angular/core';
 export class LevelSelectorComponent implements OnInit {
     title: string;
     localStorage = localStorage;
-    levelValues: string[];
+    levelValues: any[];
 
     constructor() {
         this.title = 'Elegir dificultad';
-        this.levelValues = ['Fácil', 'Medio', 'Difícil'];
+        this.levelValues = [
+            { name: 'Fácil', valor: 4 },
+            { name: 'Medio', valor: 6 },
+            { name: 'Difícil', valor: 8},
+        ];
     }
 
     ngOnInit(): void {}
 
     selectLevel(level: string) {
-        // this.localStorage.setItem('started', 'true');
+        this.localStorage.setItem('level', level);
     }
 }

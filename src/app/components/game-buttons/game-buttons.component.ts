@@ -14,10 +14,10 @@ export class GameButtonsComponent implements OnInit {
     ngOnInit(): void {}
 
     playGame() {
-
+        this.localStorage.setItem('started', 'true');
     }
 
     stopGame() {
-
+        this.localStorage.setItem('started', 'false');
     }
 }

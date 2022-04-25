@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-6 col-md-12 d-grid">
-    <button type="button" class="btn btn-primary btn-block rounded-pill" [disabled]="(localStorage.getItem('started') == 'true')"
+    <button type="button" class="btn btn-primary btn-block rounded-pill" [disabled]="(localStorage.getItem('started') == 'true' || !localStorage.getItem('level'))"
       (click)="playGame()">Jugar</button>
   </div>
   <div class="col-6 col-md-12 mt-md-1 d-grid">

@@ -1,0 +1,275 @@
+[
+    {
+        "id": "1",
+        "nombre": "Ajaw",
+        "path": "assets/img/kin/Ajaw.svg",
+        "significado": "El sol",
+        "contenido": "Es la energía de mayor evolución. Representa la luz generadora de vida, la sabiduría, la verdad, las cosas tal y como son. Cuando aparece el Sol es momento de brillar, de confiar en quienes ya somos y en lo que ya sabemos de manera intrínseca, y asumir los roles de autoridad, de liderazgo que nos correspondan. Es momento de afrontar la realidad como se presente, así nos cueste. El problema con el Sol es que al ser la verdad puede tornarse intransigente, radical con la ética, con los paradigmas, con lo que considera correcto o cierto, así, debe trabajar por sobre todas las cosas la humildad. La verdadera sabiduría no se anda mostrando, defendiendo o convenciendo, es un estado del alma, de conexión permanente con nuestro ser auténtico."
+    },
+    {
+        "id": "2",
+        "nombre": "Kawak",
+        "path": "assets/img/kin/Kawak.svg",
+        "significado": "La tormenta",
+        "contenido": "Es la fuerza transformadora de la realidad. Cuando aparece la tormenta es momento de cambios radicales, no hay de otra. En general es una energía poderosa de creación, suele pasar perfil bajo pero cuando llega el momento se manifiesta con una gran fiereza. En sombra se estacan y no se permiten cambiar, o al revés, generan cierta adicción a los movimientos fuertes permanentes. Pueden también quedarse en la extrema introspección, son muy sensibles, y no mostrarse. En luz logran generar situaciones límites para dejar ir aquello que ya le tocaba irse y poder volver a empezar en un nuevo nivel de evolución."
+    },
+    {
+        "id": "3",
+        "nombre": "Et'zanab'",
+        "path": "assets/img/kin/Etzanab.svg",
+        "significado": "El espejo",
+        "contenido": "Es el equilibrio perfecto, la ecuanimidad, la paz interior que brota gracias a una verdadera aceptación de todo tal y como es. En luz el Espejo fluye con todo sin filtros ni reparos, generando una gran armonía entre quienes lo rodean. Es uno de los sellos que se suele llevar mejor con la gente. En sombra sin embargo tiende al juicio extremo, no encuentra orden nada, menos en sí mismo, y termina en crisis por criticarlo todo. No es capaz de verse y suele proyectar sus defectos en los demás. En el calendario maya tradicional se le asocia al cuchillo de obsidiana, cualidad espiritual para cortar de raíz con todo lo que no nos sirve en nuestra vida."
+    },
+    {
+        "id": "4",
+        "nombre": "Kab'an",
+        "path": "assets/img/kin/Kaban.svg",
+        "significado": "La tierra",
+        "contenido": "Representa la estabilidad suprema. Es la dadora de base, de estructura, tanto en el plano físico como en el emocional, psíquico o espiritual. Suelen ser personas bastante fuertes que logran impulsar, con su gran empuje, a que se genere aquello que hace falta para salir adelante. En sombra caen en la sobre interpretación, en ser retadoras, creando argumentos solo para validar aquello con lo que se han entercado. En luz, saben que la verdadera estabilidad es fluir con lo que la realidad les propone, sin presionar, sin recurrir a la fuerza."
+    },
+    {
+        "id": "5",
+        "nombre": "Kib'",
+        "path": "assets/img/kin/Kib.svg",
+        "significado": "El guerrero",
+        "contenido": "Es el samurai, el que con disciplina y entrega se entrena para ir a la batalla a ganar. Pero la batalla no es el conflicto, es la posibilidad de transformar la realidad, aquello que es injusto, de manera estratégica, intrépida, frontal y sobre todo humilde. Un Guerrero en sombra lo cuestiona todo solo por ego, incluso a sí mismo, autoboicoteándose. En luz es el maestro espiritual, perfil bajo, que ilumina con sus acciones."
+    },
+    {
+        "id": "6",
+        "nombre": "Men",
+        "path": "assets/img/kin/Men.svg",
+        "significado": "El aguila",
+        "contenido": "Representa la visión panorámica, la agudeza analítica y la creatividad de vanguardia. Es visionaria y muy profunda, sintiéndose siempre responsable del bienestar ajeno. En luz logrará creer en sí misma para emprender el vuelo y evolucionar, en sombra se quedará procastinando distrayéndose con todo lo que su mente es capaz de vislumbrar, y poniendo el bien común adelante de sus prioridades como pretexto."
+    },
+    {
+        "id": "7",
+        "nombre": "Ix",
+        "path": "assets/img/kin/Ix.svg",
+        "significado": "El mago",
+        "contenido": "Es el que con su encanto natural logra transformarlo todo. Artista, performer, alquimista, sanador, brujo, ingeniero, consejero, orador. En luz, podrá cumplir con su misión de ser fuente de inspiración para los seres humanos, en sombra la soberbia lo llevará a preocuparse solo por la valoración externa, por los aplausos."
+    },
+    {
+        "id": "8",
+        "nombre": "B'en",
+        "path": "assets/img/kin/Ben.svg",
+        "significado": "El caminante del cielo",
+        "contenido": "Es el explorador, el buscador del sentido último de la existencia. Su principal motivación es conocer, conocerlo todo, sobre todo otras culturas, otros territorios, otros saberes, otras idiosincrasias. En luz, sabrá dejarse guiar por su intuición y todo lo que conozca logrará transformarlo, para luego compartirlo con el mundo. En sombra, el escepticismo le jugará malas pasadas, y solo buscará que conocer hacia fuera, sin tener el coraje de viajar dentro suyo ni de encontrar un camino espiritual."
+    },
+    {
+        "id": "9",
+        "nombre": "Eb'",
+        "path": "assets/img/kin/Eb.svg",
+        "significado": "El humano",
+        "contenido": "Representa el más alto estándar de integridad. Es el sabio que defiende las causas justas, habitualmente sacrificándose en el proceso. En luz está en conexión profunda con su libertad y sabrá equilibrar su gran necesidad de generar armonía alrededor suyo con el camino que quiera elegir. En sombra, se pospondrá por el resto o caerá en la indecisión aguda de no saber qué decisiones tomar, por tener un concepto rígido del deber ser."
+    },
+    {
+        "id": "10",
+        "nombre": "Chuwen",
+        "path": "assets/img/kin/Chuwen.svg",
+        "significado": "El mono",
+        "contenido": "Es el niño interior que con su sabiduría ilumina la vida de los demás. En luz es el sentido del humor, lo lúdico, la irreverencia que cuestiona todo como jugando. En sombra suele tender a tomarse todo demasiado en serio y actuar como el abogado defensor de las causas justas. No se permite relajarse y guarda situaciones de la infancia por resolver. Su misión será mostrarle al mundo que nada es tan sólido como parece y que a veces es necesario confrontarnos desde la risa para lograr soltar el ego."
+    },
+    {
+        "id": "11",
+        "nombre": "Ok",
+        "path": "assets/img/kin/Ok.svg",
+        "significado": "El perro",
+        "contenido": "Es la energía del amor incondicional. El Perro representa la fidelidad, la lealtad y el compañerismo, es el guardián de sus seres queridos. En sombra tiene problemas de autoestima, dando siempre demás a quienes no le corresponden y exigiendo en consecuencia. En luz es capaz del máximo altruismo, sabiéndose amar a sí mismo primero, poniendo límites sanos a todo lo que no le haga bien en sus relaciones afectivas y amando sin aprehensión. Tenderá a dedicarse de alguna u otra manera a proyectos sociales, a hacer el bien por la humanidad. En este sentido tendría que tener cuidado con inconscientemente actuar como el salvador de los demás."
+    },
+    {
+        "id": "12",
+        "nombre": "Muluk",
+        "path": "assets/img/kin/Muluk.svg",
+        "significado": "La luna",
+        "contenido": "Es el mundo de las emociones. La Luna lo siente todo, su sensibilidad es vasta y todo le impacta profundamente. De hecho es capaz de saber cómo se siente cada persona a su alrededor, tendiendo a querer acobijar a todo el que sufra. Esto puede traerle muchos problemas ya que se cargará de cosas que no le corresponden. En este sentido goza de una poderosa intuición y de una gran imaginación. Representa la energía de lo femenino, el poder de las aguas y la maestría en relación a los elementos de la naturaleza. Necesita trascender el drama ahí donde lo ve, purificarse de todo lo que sienta y dejarse fluir."
+    },
+    {
+        "id": "13",
+        "nombre": "Lamat",
+        "path": "assets/img/kin/Lamat.svg",
+        "significado": "La estrella",
+        "contenido": "Representa el arte, la belleza, la elegancia, la armonía, la creatividad, pero también el pensamiento abstracto, el mundo de las ideas y la producción intelectual. Las personas Estrella gozan hasta de un garbo natural, y si bien su misión es desarrollar su gran creatividad pueden perderse fácilmente en el plano racional. En sombra buscan el perfeccionismo, dañando su sistema nervioso. En luz pueden llegar a ser grandes y virtuosos artistas. Es importante que dejen la terquedad de lado, la necesidad de relativizarlo todo y de querer encontrar la verdad en la mente conceptual."
+    },
+    {
+        "id": "14",
+        "nombre": "Manik'",
+        "path": "assets/img/kin/Manik.svg",
+        "significado": "La mano",
+        "contenido": "Representa el servicio, la sanación y la realización. Es el poder de llevar a cabo todo lo que uno se proponga. En sombra, la Mano hace por hacer, es adicto al trabajo, pero no se arriesga a dedicarse a lo que más sueña. En luz, todo lo que haga además estará conectado con su capacidad de ayudar y de sanar. Debe tener mucho cuidado con control y aprender a poner límites sanos entre lo que le da a los demás y a sí mismo."
+    },
+    {
+        "id": "15",
+        "nombre": "Kimi",
+        "path": "assets/img/kin/Kimi.svg",
+        "significado": "El enlazador de mundos",
+        "contenido": "Es el puente entre diferentes dimensiones. En este plano domina la capacidad de ser como un relacionista público, de crear contactos, de saber cómo relacionarse con los demás para generar redes y oportunidades. En el plano espiritual es el mensajero de los espíritus y, aunque lo suela bloquear por miedo, puede recibir información para sí mismo o para ser transmitida a los demás como forma de ayuda. Su misión es entender la muerte como parte de la vida, profundizar en su conocimiento espiritual sobre la misma para saber dejar ir cuando corresponda."
+    },
+    {
+        "id": "16",
+        "nombre": "Chikchan",
+        "path": "assets/img/kin/Chikchan.svg",
+        "significado": "La serpiente",
+        "contenido": "Es la fuerza vital, la astucia para vivir en el mundo material, así como la sabiduría para entender que no hay espiritualidad sin equilibrio físico. La Serpiente se dedica a reunir los recursos necesarios para tener una buena vida, en sombra ese será su único objetivo, en luz, sabrá que ese es solo el medio para poder evolucionar a este plano. Suele ser dominante, territorial y austera, pero también muy culta y noble."
+    },
+    {
+        "id": "17",
+        "nombre": "K'an",
+        "path": "assets/img/kin/Kan.svg",
+        "significado": "La semilla",
+        "contenido": "Es la capacidad de inyectarle vida a todo lo que nos propongamos para que florezca, para que tenga resultados, para que se materialice y sea exitoso. En primer lugar la Semilla debe sentir, identificar sus pasiones, aquello que ama hacer, para que pueda dedicarse a eso y no desbalancearse entregando toda su infinita energía en proyectos ajenos o en aquellos a los que se ha acostumbrado por presión social o solo porque funcionan. También es la danza, el gozo, el placer, la curiosidad y el saber atinar, saber esperar al momento correcto para actuar."
+    },
+    {
+        "id": "18",
+        "nombre": "Ak'bal'",
+        "path": "assets/img/kin/Akbal.svg",
+        "significado": "Noche",
+        "contenido": "Es el sol de la oscuridad. Representa nuestro inconsciente, el mundo onírico y la capacidad de realizar nuestros sueños. Tiene el potencial de recibir mensajes en sueños, solo hay que hacerles caso. Necesita descansar mucho y estar solo por periodos. Es importante saber salir también y relacionarse con el mundo, con la espontaneidad que la caracteriza. Suelen ser histriónicos, sumamente intuitivos y más bien estancar su abundancia si no creen en sí mismos. Es importante estar atento a las posibles locuras, impulsividades, deseos sin resolver, y a un ego desmedido, para poder equilibrarse."
+    },
+    {
+        "id": "19",
+        "nombre": "Ik'",
+        "path": "assets/img/kin/Ik.svg",
+        "significado": "Viento",
+        "contenido": "Es la comunicación, el aliento divino, la flexibilidad y el cambio. Tiene el don de la palabra, así que deberá usarla estratégicamente y con bondad. Necesita de novedades todo el tiempo, suele ser sumamente social aunque en sombra puede guardar mucho de sí mismo aún rodeado de gente y hablando sin decir nada. A nivel espiritual puede canalizar mensajes del más allá. Necesita focalizarse y decir todo lo que siente en lo más profundo de sí, sabiendo también cuándo guardar silencio."
+    },
+    {
+        "id": "20",
+        "nombre": "Imix'",
+        "path": "assets/img/kin/Imix.svg",
+        "significado": "Dragon",
+        "contenido": "Es el guardián fiero de la vida, de las ideas y proyectos que pone en marcha. Es el gestor, el productor, el iniciador. Goza de una gran sensibilidad existencial y una creatividad única. Si no está en armonía consigo mismo puede tener muchas ideas pero no realizar ninguna por no saber por dónde empezar o también dedicarse a tantos proyectos al mismo tiempo que no logra entregarse por entero a ninguno. Dejar lo que empiece sin terminar lo retrasa energéticamente. Espiritualmente representa la memoria ancestral y si está despierto logra integrarla en todo lo que hace."
+    },
+    {
+        "id": "21",
+        "nombre": "Wayeb'",
+        "path": "assets/img/uinal/Wayeb.svg",
+        "significado": "Dias desafortunados, reflexion, gracia y penitencia",
+        "contenido": "Cuando llegaban los cinco días sin nombre conocidos como uayeb, los mayas no se bañaban, no hacían obras serviles o de trabajo, porque temían que al realizar alguna actividad, les iría mal."
+    },
+    {
+        "id": "22",
+        "nombre": "Pop",
+        "path": "assets/img/uinal/Pop.svg",
+        "significado": "Mat (símbolo de comunidad y matrimonio), petate",
+        "contenido": "Este mes era una especie de año nuevo, era una fiesta muy celebrada, renovaban todas las cosas de utensilios de casa, como platos, vasos, banquillos, ropa, mantillas, barrían su casa y la asura la echaban fuera del pueblo, pero antes de la fiesta al menos 13 días ayunaban y se abstenían de tener sexo, no comían sal, ni chile, algunas personas ampliaban este período de abstinencia hasta tres uinales. Después todos los hombres se reunían con el sacerdote en el patio del templo y ponían una porción de copal en el brasero para quemarlo."
+    },
+    {
+        "id": "23",
+        "nombre": "Woo",
+        "path": "assets/img/uinal/Woo.svg",
+        "significado": "Rana, sapo, negro",
+        "contenido": "En este mes se realizaban festividades para sacerdotes, adivinadores, la ceremonia era llamada pocam, y oraban quemando copal a Kinich Ahau Itzamná, a quien consideraban el primer sacerdote. Con «agua virgen traída del monte, donde no llegase mujer» untaban las tablas de los libros y el sacerdote realizaba los pronósticos del año, realizaban un baile llamado okotuil."
+    },
+    {
+        "id": "24",
+        "nombre": "Zip",
+        "path": "assets/img/uinal/Zip.svg",
+        "significado": "Rojo, conjuncion",
+        "contenido": "En este mes se juntaban los sacerdotes con sus mujeres, y usaban idolillos de la diosa Ixchel, y la fiesta se llamaba Ibcil Ixchel, invocaban a los dioses de la medicina que eran Itzamná, Citbolontun y Ahau Chamahez, realizaban un baile llamado Chantunyab. El día siete del uinal zip día invocaban a los dioses de la caza Ah Cancum, Zuhuyzib Zipitabai, y otros, cada cazador sacaba una flecha y una cabeza de venado las cuales eran untadas de betún azul, y bailaban con las flechas en las manos, se horadaban las orejas, otros la lengua y pasaban por los agujeros siete hojas de una hierba llamada Ac. Al día siguiente era el turno de los pescadores, pero ellos untaban de betún azul sus aparejos de pesca y no se horadaban las orejas, sino que se ponían arpones, y bailaban el Chohom, y después de realizada la ceremonia iban a la costa a pescar, los dioses eran Abkaknexoi, Abpua, y Ahcitzamalcun."
+    },
+    {
+        "id": "25",
+        "nombre": "Sotz'",
+        "path": "assets/img/uinal/Sotz.svg",
+        "significado": "Bat(murcielago)",
+        "contenido": "En este mes los apicultores comenzaban los preparativos pero celebraban su fiesta en el uinal siguiente tsek, los sacerdotes y oficiales ayunaban, así como algunos voluntarios."
+    },
+    {
+        "id": "26",
+        "nombre": "Tzek",
+        "path": "assets/img/uinal/Tzek.svg",
+        "significado": "Fin, palma, calavera",
+        "contenido": "En este mes no derramaban sangre, los dioses venerados eran los cuatro bacabs, especialmente Hobnil. Ofrecían a los bacabs platos con figuras de miel, y los mayas bebían un vino llamado balche, el cual se procesaba de la corteza del árbol de ese nombre (Lonchucarpus violaceus), los apicultores regalaban miel en abundancia."
+    },
+    {
+        "id": "27",
+        "nombre": "Xul",
+        "path": "assets/img/uinal/Xul.svg",
+        "significado": "Perro, instrumento musical",
+        "contenido": "Este mes era dedicado a Kukulcán, los mayas iban por el jefe supremo de los guerreros llamado Nacom, al cual sentaban en el templo quemando copal, realizaban un baile de guerreros llamado Holkanakot, sacrificando un perro y quebrando ollas llenas de bebida para terminar su fiesta, y regresar con honores al Nacom a su casa. Esta ceremonia se celebraba en todos lados hasta la destrucción de Mayapán, después solo se celebraba en Maní en la jurisdicción de los Tutul xiúes, todos los señores se juntaban presentaban cinco banderas de pluma, y se iban al templo de Kukulcán, donde oraban durante cinco días, después de los cuales bajaba Kukulcán del cielo y recibía las ofrendas, la fiesta se llamaba Chikabán."
+    },
+    {
+        "id": "28",
+        "nombre": "Yaxk'in",
+        "path": "assets/img/uinal/Yaxkin.svg",
+        "significado": "Primer Sol (o verde), inicio agricola, nuevo dia",
+        "contenido": "En este mes se realizaba la ceremonia se llamaba Olob-Zab-Kamyax, se untaban todos los instrumentos de todos los oficios con betún azul, se juntaban los niños y las niñas del pueblo y les daban unos golpecillos en los nudillos, con la idea que los niños fueran expertos en los oficios de sus padres. Desde este uinal comenzaban a aparejarse para la ceremonia del uinal Mol."
+    },
+    {
+        "id": "29",
+        "nombre": "Mol",
+        "path": "assets/img/uinal/Mol.svg",
+        "significado": "Inicio de lluvia, agua, jade",
+        "contenido": "En este mes los apicultores oraban a los dioses para que hubiese buenas flores y de esta manera tener una buena producción de las abejas,.en este mes era cuando fabricaban las efigies o ídolos de madera, los cuales eran de alguna forma bendecidos por los sacerdotes. Se practicaba un ritual en el cual se sangraban las orejas."
+    },
+    {
+        "id": "30",
+        "nombre": "Ch'en",
+        "path": "assets/img/uinal/Chen.svg",
+        "significado": "Lluvia, negro, acido",
+        "contenido": "En este mes hacían una fiesta llamaba ocná, que quiere decir «renovación del templo», la hacían en honor de los dioses de los maizales; los mayas acostumbraban tener ídolos de los dioses con pequeños braseros en donde quemaban copal, en esta fiesta cada año se renovaban los ídolos de barro y sus braseros."
+    },
+    {
+        "id": "31",
+        "nombre": "Yax",
+        "path": "assets/img/uinal/Yax.svg",
+        "significado": "Verde, humedad",
+        "contenido": "En este mes hacían una fiesta llamaba ocná, que quiere decir «renovación del templo», la hacían en honor de los dioses de los maizales; los mayas acostumbraban tener ídolos de los dioses con pequeños braseros en donde quemaban copal, en esta fiesta cada año se renovaban los ídolos de barro y sus braseros."
+    },
+    {
+        "id": "32",
+        "nombre": "Sak",
+        "path": "assets/img/uinal/Sak.svg",
+        "significado": "Blanco, lluvia",
+        "contenido": "En este mes el sacerdote y los cazadores hacían una ceremonia para aplacar a los dioses de la ira, y como una forma de penitencia por la sangre derramada durante la cazas (los mayas tenían como «cosa horrenda» cualquier derramamiento de sangre si dicho derramamiento no era en sus sacrificios), por eso cuando iban a la caza invocaban al dios de la caza, le quemaban copal y si podían le untaban al rostro del ídolo de la caza, la sangre del corazón de la presa."
+    },
+    {
+        "id": "33",
+        "nombre": "Keh",
+        "path": "assets/img/uinal/Keh.svg",
+        "significado": "Rojo, venado",
+        "contenido": "En las proximidades de este mes existía una fiesta muy grande y de fecha movible que duraba tres días, con quema de copal, a la cual Landa llamaba «sahumerías», ofrendas y borrachera. Los sacerdotes tenían cuidado de avisar con tiempo para realizar un ayuno previo."
+    },
+    {
+        "id": "34",
+        "nombre": "Mak",
+        "path": "assets/img/uinal/Mak.svg",
+        "significado": "Red, cautiverio, pecado",
+        "contenido": "En este mes la gente anciana realizaba una ceremonia llamada «tupp kak» (matar el fuego), era dirigida a los dioses de los panes y a Itzamná, en una fogata quemaban corazones de aves y animales, una vez incinerados los corazones apagaban el fuego con cántaros de agua. Se juntaba el pueblo y los sacerdotes y untaban con lodo y betún azul los primeros escalones de las escaleras de sus templos. En esta fiesta no realizaban ayuno, a excepción del sacerdote."
+    },
+    {
+        "id": "35",
+        "nombre": "K'ank'in",
+        "path": "assets/img/uinal/Kankin.svg",
+        "significado": "Sol amarillo",
+        "contenido": "Hasta la fecha se desconocen los dioses que se honraban en este periodo del año maya."
+    },
+    {
+        "id": "36",
+        "nombre": "Muwan",
+        "path": "assets/img/uinal/Muwan.svg",
+        "significado": "Halcon, buho",
+        "contenido": "Este mes correspondía a los cultivadores de cacao realizar una ceremonia a los dioses Chac Ek chuah, y Hobnil, sacrificaban un perro manchado con el color de cacao, y quemaban incienso y ofrecían iguanas de las azules (probablemente untadas de betún azul) y ciertas plumas de pájaros, terminada la ceremonia los mayas se comían las ofrendas."
+    },
+    {
+        "id": "37",
+        "nombre": "Pax",
+        "path": "assets/img/uinal/Pax.svg",
+        "significado": "Tiempo de siembra, tambor, musica",
+        "contenido": "En este mes la ceremonia se llamaba pacum chac, y por un período de cinco noches se juntaban los señores (batab) y los sacerdotes (ah kin) de los pueblos menores (batabil), en las capitales y veneraban a Cit chac cob. Se homenajeaba con copal al jefe de los guerreros (nacom) durante cinco días, realizaban un baile de los guerreros llamado HOLKANAKOT. El sentido de esta ceremonia era para pedir a sus dioses alcanzar la victoria frente a sus enemigos. Se sacrificaba un perro, al cual se le extraía el corazón, se rompían ollas grandes que contenían bebida, y daban por finalizada la ceremonia, regresando a sus pueblos."
+    },
+    {
+        "id": "38",
+        "nombre": "K'ayab'",
+        "path": "assets/img/uinal/Kayab.svg",
+        "significado": "Tortuga, guacamaya",
+        "contenido": "Durante los meses kayab y Kumku en cada población hacían fiestas a las cuales llamaban zabacilthan, se reunían para presentar ofrendas, comer y beber preparándose para el uayeb, el mes corto de los cinco días nefastos."
+    },
+    {
+        "id": "39",
+        "nombre": "K'umk'u'",
+        "path": "assets/img/uinal/Kumku.svg",
+        "significado": "Maiz maduro, granero, oscuridad",
+        "contenido": "Durante los meses kayab y Kumku en cada población hacían fiestas a las cuales llamaban zabacilthan, se reunían para presentar ofrendas, comer y beber preparándose para el uayeb, el mes corto de los cinco días nefastos."
+    }
+]
