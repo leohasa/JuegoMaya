@@ -1,14 +1,19 @@
-
-<div class="container" >
-   
+<div class="container">
     <h1>Adivina el Nahual</h1>
-    <p>INSTRUCCIONES DEL JUEGO</p>
-<app-nahual>
-
-</app-nahual>
-  
-      </div>
-
-
-
-
+    <div class="container-sm">
+        <p class="lead">
+            El juego consiste en adivinar el Nombre del Nahual, guiandose con
+            las pistas y el glifo del mismo.
+        </p>
+    </div>
+    <app-nahual *ngFor="let n of randomNahuales" [nahual]="n"></app-nahual>
+    <div class="centrado">
+        <br>
+        <div class="buttons">
+            <button type="button" onClick="history.go(0);" class="btn btn-lg btn-block">
+                Jugar de Nuevo
+            </button>
+        </div>
+    </div>
+    <br>
+</div>

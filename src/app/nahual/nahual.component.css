@@ -1,6 +1,13 @@
 .card {
-  align-items: center;
+  
   border-color: #223d82;
+  border-width: 0.5px;
+  align-items: center;
+}
+.card-body{
+
+  width: 90%;
+  height: 100%;
 }
 .card-img-top {
   width: 20rem;
