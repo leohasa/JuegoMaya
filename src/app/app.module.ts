@@ -9,13 +9,24 @@ import { CalcComponent } from './mathematics/calc/calc.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { ContentComponent } from './mathematics/content/content.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { BodyGeneralComponent } from './body-general/body-general.component';
+import { FooterGeneralComponent } from './footer-general/footer-general.component';
+import { AdivinadorComponent } from './adivinador/adivinador.component';
+import { NahualComponent } from './nahual/nahual.component';
 @NgModule({
   declarations: [
     AppComponent,
     MathematicsComponent,
     NumeracionComponent,
     CalcComponent,
-    ContentComponent
+    ContentComponent,
+    NavbarComponent,
+    BodyGeneralComponent,
+    FooterGeneralComponent,
+    AdivinadorComponent,
+    NahualComponent
+
   ],
   imports: [
     BrowserModule,

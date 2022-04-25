@@ -1,0 +1,40 @@
+header nav{
+    position: sticky;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 12;
+  }
+  .navbar{
+    width: 98%;
+    display: flex;
+    margin: 20px auto 0 auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+    header nav .logo{
+    height: 80px;
+    width: 200px;
+  }
+  .logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  nav .menu{
+    display: flex;
+  }
+  nav .menu li{
+    list-style: none;
+    margin: 0 10px;
+  }
+  nav .menu a{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  nav .menu a:hover{
+      color: #223D82;
+    }
+  
