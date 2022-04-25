@@ -1,0 +1,154 @@
+<div class="container">
+    <div class="alert alert-primary" role="alert">
+        <h1 class="display-4" style="text-align: center">Juego Enlazar V1.0</h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <div class="form-check">
+                        <input
+                            class="form-check-input"
+                            name="radio2"
+                            type="radio"
+                            id="kines"
+                            (change)="tipoDatos('kines')"
+                        />
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Kines
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input
+                            class="form-check-input"
+                            name="radio2"
+                            type="radio"
+                            id="kines"
+                            (change)="tipoDatos('uinales')"
+                        />
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Uinales
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input
+                            class="form-check-input"
+                            name="radio2"
+                            type="radio"
+                            id="kines"
+                            (change)="tipoDatos('nahuales')"
+                        />
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Nahuales
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input
+                            class="form-check-input"
+                            name="radio2"
+                            type="radio"
+                            id="energias"
+                            (change)="tipoDatos('energias')"
+                        />
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Energias
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div style="justify-content: center; display: flex">
+                    <div class="form-check">
+                        <input
+                            class="form-check-input"
+                            name="radio1"
+                            type="radio"
+                            id="nivel1"
+                            (change)="iniciar(3)"
+                        />
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Nivel 1
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input
+                            class="form-check-input"
+                            name="radio1"
+                            type="radio"
+                            id="nivel2"
+                            (change)="iniciar(2)"
+                        />
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Nivel 2
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input
+                            class="form-check-input"
+                            name="radio1"
+                            type="radio"
+                            id="nivel2"
+                            (change)="iniciar(1)"
+                        />
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Nivel 3
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <button
+                    type="button"
+                    class="btn btn-outline-dark"
+                    (click)="iniciarJuego()"
+                >
+                    Iniciar
+                </button>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="container">
+    <div class="juego">
+        <app-boton-dinamico
+            *ngFor="let recorrer of datos; let i = index"
+            (salidaInfo)="logica1!.mover($event)"
+            [identifierName]="recorrer[2]"
+            [buttonText]="recorrer[1]"
+            [clase]="recorrer[0]"
+        >
+        </app-boton-dinamico>
+    </div>
+    </div>
+
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col" style="text-align: center">Nombre</th>
+                <th scope="col" style="text-align: center">Simbolo</th>
+                <th scope="col" style="text-align: center">Concepto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let mesnaje2 of mensaje">
+                <td style="text-align: center">{{ mesnaje2[0] }}</td>
+                <td style="text-align: center">
+                    <img
+                        src="{{
+                            'assets/imagenes/' +
+                                tipoJuego +
+                                '/' +
+                                mesnaje2[0] +
+                                '.png'
+                        }}"
+                        width="50"
+                    />
+                </td>
+                <td style="text-align: center">{{ mesnaje2[1] }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

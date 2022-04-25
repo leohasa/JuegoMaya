@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row px-2">
+        <div class="row p-2 d-flex align-items-center">
+            <div class="col title d-flex align-items-center">
+                <img src="assets/img/haab.svg" />
+                <span>{{ title }}</span>
+            </div>
+        </div>
+        <div class="col-12 col-md-9 py-2">
+            <app-game-info
+                *ngIf="localStorage.getItem('started') == 'false'"
+            ></app-game-info>
+            <!-- game grid -->
+            <app-game-grid
+                *ngIf="localStorage.getItem('started') == 'true'"
+            ></app-game-grid>
+        </div>
+        <div class="col-12 col-md-3 py-2">
+            <!-- <app-info-game-selector></app-info-game-selector> -->
+            <app-level-selector></app-level-selector>
+            <app-game-buttons></app-game-buttons>
+        </div>
+    </div>
+</div>

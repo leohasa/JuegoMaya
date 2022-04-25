@@ -1,0 +1,46 @@
+
+
+
+
+<!--div class="row d-flex "-->
+<br><br><br>
+<div class="row d-flex">
+    <div class="container col-5 example-box " cdkDrag>
+        <div>
+            <h2 class="card-header  text-center ">Ingresa El Numero Que Deseas Conocer</h2>
+            <br>
+        </div>
+        
+        <input type="number" [formControl]="valueNumber" id="valueIn" class="number_in d-flex align-content-center">
+        <br><br>
+
+        <p *ngIf="valueNumber.errors && valueNumber.dirty">
+
+            <small *ngIf="valueNumber.hasError('required') && valueNumber.dirty">Campo Requerido</small>
+            <small *ngIf="valueNumber.hasError('maxlength') && valueNumber.dirty">Excede el tamanio maximo
+                permitido</small>
+            <small *ngIf="valueNumber.hasError('minlength') && valueNumber.dirty">Existe un minimo</small>
+            <!--small *ngIf="valueNumber.hasError('pattern') && valueNumber.dirty">El Dato Debe Ser Numerico</small-->
+        </p>
+
+    </div>
+
+    <div class="card result container col-4 example-box" cdkDrag>
+        <h5>Numero Maya</h5>
+        <p class="maya" id="result" #result>0</p>
+        <br><br>
+    </div>
+
+</div>
+<br>
+
+<div class="row d-flex justify-content-center">
+    
+    <div class="col-3 example-box" cdkDrag>
+        <div class="card container ">
+            <h5>Proceso</h5>
+            <p id="explain" class="pasos" #explain></p>
+        </div>
+    </div>
+    
+</div>

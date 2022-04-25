@@ -1,0 +1,50 @@
+
+.text-content{
+    position: absolute;
+    top: 33%;
+    left: 7%;
+    z-index: 12;
+  }
+   .text-content .text{
+    font-size: 27px;
+    color: #000000;
+  }
+   .text-content .name{
+  color: #000000;
+   font-size: 75px;
+   font-weight: 600;
+   margin: -20px 0 0 -3px;
+  }
+   .text-content .job{
+   color: #c1c9eb;
+   font-size: 40px;
+   margin: 5px 0;
+   margin-top: -4px;
+   display: flex;
+  }
+  .text-content .typing-text{
+    margin-left: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #223D82 dotted;
+    animation: typing 5s steps(21);
+  }
+  @keyframes typing{
+    0%{
+      width: 0ch;
+    }
+    50%{
+      width: 21ch;
+    }
+    100%{
+      width: 0ch;
+    }
+  }
+  .text-content .job .one{
+    color: #223D82;
+  }
+  /*#17e4d3;
+  #1de2d1;*/
+  .text-content .job .two{
+    color: #223D82;
+  }
