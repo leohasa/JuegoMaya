@@ -15,9 +15,12 @@ export class GameButtonsComponent implements OnInit {
 
     playGame() {
         this.localStorage.setItem('started', 'true');
+        this.localStorage.setItem('parejas', '0');
     }
 
     stopGame() {
+        this.localStorage.removeItem('cardUp1');
+        this.localStorage.removeItem('cardUp2');
         this.localStorage.setItem('started', 'false');
     }
 }

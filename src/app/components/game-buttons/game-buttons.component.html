@@ -1,10 +1,10 @@
 <div class="row">
   <div class="col-6 col-md-12 d-grid">
-    <button type="button" class="btn btn-primary btn-block rounded-pill" [disabled]="(localStorage.getItem('started') == 'true' || !localStorage.getItem('level'))"
+    <button type="button" class="btn btn-primary btn-block rounded-pill"
       (click)="playGame()">Jugar</button>
   </div>
   <div class="col-6 col-md-12 mt-md-1 d-grid">
-    <button type="button" class="btn btn-primary btn-block rounded-pill" [disabled]="(localStorage.getItem('started')) == 'false'"
+    <button type="button" class="btn btn-primary btn-block rounded-pill"
       (click)="stopGame()">Finalizar</button>
   </div>
 </div>

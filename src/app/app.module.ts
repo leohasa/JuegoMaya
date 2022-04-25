@@ -10,6 +10,7 @@ import { GameButtonsComponent } from './components/game-buttons/game-buttons.com
 import { GameInfoComponent } from './components/game-info/game-info.component';
 import { GameGridComponent } from './components/game-grid/game-grid.component';
 import { CardGameComponent } from './components/card-game/card-game.component';
+import { ModalComponent } from './components/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { CardGameComponent } from './components/card-game/card-game.component';
     GameInfoComponent,
     GameGridComponent,
     CardGameComponent,
+    ModalComponent,
   ],
   imports: [
     BrowserModule,
