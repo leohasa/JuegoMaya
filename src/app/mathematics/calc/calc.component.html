@@ -40,11 +40,15 @@
       <div class="col-2"></div>
       <div class="col-2" #result></div>
       <br><br>
+
+
+      
+
     <div class="row">
       <div class="col-5"></div>
       <div class="col-4" *ngIf="button">
         <br>
-        <button  class="btn btn-primary" value="Siguiente" (click)="siguiente()">siguiente </button>
+        
       </div>
       <div class="col-3"></div>
     </div>  
@@ -52,4 +56,27 @@
     </div>
   </div>
 
+<button type="button" [hidden]="true"  data-bs-toggle="modal"  id="modalCalc" data-bs-target="#exampleModal">
+  
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header d-flex justify-content-center">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <img src="/assets/mazorca.PNG" class="img" width="80" height="80" alt="Mazorcas">
+        <button type="button" class="btn-close" [hidden]="true" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center ">
+        Llevas una Racha de <strong> {{racha}} </strong> <div #result></div> Mazorcas
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button  class="btn btn-primary" value="Siguiente" (click)="siguiente()" data-bs-dismiss="modal">siguiente </button>
+        
+      </div>
+    </div>
+  </div>
+</div>
 </div>
