@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
 body{
     height: 100vh;
     width: 100%;
@@ -5,9 +12,9 @@ body{
     background-image: url("./assets/resources/screen10.jpg");
     background-position: center;
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; 
+    background-size: cover;
     background-attachment: fixed;
-  
+
     /*background-size: auto;*/
   }
   h1 {
@@ -18,19 +25,19 @@ body{
     background-color: white;
     margin: auto;
 
- 
+
 }
 .contenedorGeneral {
 
     margin: auto;
     height: 80%;
     width: 90%;
- 
+
 }
 .centrado{
 	display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
 }
 /*
 .buttons{

@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-footer-general',
   template: `
+  <br><br><br><br>
 <footer class="text-center text-white fixed-bottom" >
       <!-- Copyright -->
       <div class="text-center text-white p-3" id="copyright">
