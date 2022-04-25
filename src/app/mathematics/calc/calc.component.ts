@@ -18,7 +18,7 @@ export class CalcComponent implements OnInit {
   button = false;
   showM = false;
   private valueTarget: number
-  private racha : number = 0;
+   racha: number = 0;
 
   valueNumber = new FormControl("", [Validators.required, Validators.pattern("\d"), Validators.maxLength(10), Validators.minLength(1)]);
 
@@ -57,16 +57,18 @@ export class CalcComponent implements OnInit {
         event.container.data,
         event.previousIndex,
         event.currentIndex);
-      
+
       this.result.nativeElement.className = "error";
       this.message.nativeElement.innerText = "Intentalo Nuevamente";
 
       if (event.container.data[0]["Valor"] == this.valueTarget) {
-        this.result.nativeElement.className = "succes col-8";
+        this.result.nativeElement.className = "succes col-4";
         this.message.nativeElement.innerText = "Excelente!";
         this.button = true;
         this.racha += 1;
-      }else{
+        document.getElementById('modalCalc')?.click(); 
+
+      } else {
         this.racha = 0;
       }
 
@@ -74,7 +76,7 @@ export class CalcComponent implements OnInit {
         console.log(event.container.data.length)
         this.result.nativeElement.className = "error";
         this.button = false;
-        this.racha = 0 ;
+        this.racha = 0;
       }
     }
 
@@ -166,9 +168,9 @@ export class CalcComponent implements OnInit {
 
   }
   siguiente() {
-    console.log("siguiente")
+    
     this.button = false;
-    this.message.nativeElement.innerText = "Racha: " + this.racha;
+    this.message.nativeElement.innerText = "Mazorcas Acumuladas: " + this.racha;
     this.randomNumber(this.valueNumber.value)
   }
 }

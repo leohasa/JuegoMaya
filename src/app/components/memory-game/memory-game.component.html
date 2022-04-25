@@ -7,6 +7,30 @@
             </div>
         </div>
         <div class="col-12 col-md-9 py-2">
+            <div
+                *ngIf="localStorage.getItem('win') == 'true'"
+                class="alert alert-success alert-dismissible fade show"
+            >
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="alert"
+                    (click)="removeWin()"
+                ></button>
+                <strong>Felicidades!</strong> has encontrado todas las parejas.
+            </div>
+            <div
+                *ngIf="localStorage.getItem('win') == 'false'"
+                class="alert alert-danger alert-dismissible fade show"
+            >
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="alert"
+                    (click)="removeWin()"
+                ></button>
+                <strong>Suerte para la proxima!</strong> Te has rendido y has finalizado el juego.
+            </div>
             <app-game-info
                 *ngIf="localStorage.getItem('started') == 'false'"
             ></app-game-info>

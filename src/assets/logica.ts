@@ -106,7 +106,8 @@ export class logica{
     controlador(nombreComponente:string){
         let boton = document.getElementById(nombreComponente);
         let tipoNuevo = nombreComponente[0];
-        let limite = window.innerWidth/2;
+        //let limite = window.innerWidth/2;
+        let limite = document.getElementById('containerJuego').clientWidth/2;
         if(boton!=undefined && tipoNuevo != this.tipoAnterior){
             this.numeroClic++;
             this.tipoAnterior = tipoNuevo;

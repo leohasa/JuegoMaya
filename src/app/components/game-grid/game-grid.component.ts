@@ -27,42 +27,42 @@ export class GameGridComponent implements OnInit {
 
         this.randomCards = this.cardService.getRandomCards(this.level);
         console.log(this.randomCards);
-        this.subscribeDataService();
+        this.eventModal();
     }
 
-    subscribeDataService() {
-        this.dataService.getData().subscribe((data) => {
-            if (data.validar) {
-                let indexCard1 = Number.parseInt(
-                    localStorage.getItem('cardUp1') ?? ''
-                );
-                let indexCard2 = Number.parseInt(
-                    localStorage.getItem('cardUp2') ?? ''
-                );
+    subscribeDataService(validar: boolean) {
+        if (validar) {
+            let indexCard1 = Number.parseInt(
+                localStorage.getItem('cardUp1') ?? ''
+            );
+            let indexCard2 = Number.parseInt(
+                localStorage.getItem('cardUp2') ?? ''
+            );
 
-                let card1: Card = this.randomCards[indexCard1];
-                let card2: Card = this.randomCards[indexCard2];
+            let card1: Card = this.randomCards[indexCard1];
+            let card2: Card = this.randomCards[indexCard2];
+            console.log(card1, card2);
+            console.log('indices: ', indexCard1, indexCard2);
 
-                setTimeout(() => {
-                    if (card1.id == card2.id) {
-                        console.log('Son iguales');
-                        this.dataService.updateData({
-                            discover: true,
-                            idCard: card1.id,
-                        });
-                        this.cardInfo = card1;
-                        document.getElementById('btnModalInfo')?.click();
-                        let parejas = Number.parseInt(
-                            localStorage.getItem('parejas') ?? '0'
-                        );
-                        parejas++;
-                        localStorage.setItem('parejas', parejas + '');
-                    }
-                    localStorage.removeItem('cardUp1');
-                    localStorage.removeItem('cardUp2');
-                }, 1000);
-            }
-        });
+            setTimeout(() => {
+                if (card1.id == card2.id) {
+                    this.dataService.updateData({
+                        discover: true,
+                        idCard: card1.id,
+                    });
+                    this.cardInfo = card1;
+                    console.log('cardmodal:', card1);
+                    let parejas = Number.parseInt(
+                        localStorage.getItem('parejas') ?? '0'
+                    );
+                    parejas++;
+                    localStorage.setItem('parejas', parejas + '');
+                    document.getElementById('btnModalInfo')?.click();
+                }
+                localStorage.removeItem('cardUp1');
+                localStorage.removeItem('cardUp2');
+            }, 1000);
+        }
     }
 
     getIndex(i: number, j: number) {
@@ -73,9 +73,9 @@ export class GameGridComponent implements OnInit {
         document
             .getElementById('modalInfo')
             ?.addEventListener('hidden.bs.modal', () => {
-                if (localStorage.getItem('parejas') == (this.level * 2 + '')) {
+                if (localStorage.getItem('parejas') == this.level * 2 + '') {
                     localStorage.setItem('started', 'false');
-                    document.getElementById('btnModalInfo2')?.click();
+                    localStorage.setItem('win', 'true');
                 }
             });
     }
