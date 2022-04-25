@@ -1,0 +1,143 @@
+[{
+    "id":0,
+    "imagen": "Tzikin",
+    "nombre":"Tzikin",
+    "significado":"Pajaro",
+    "caracteristicas": "Es el símbolo de la suerte, la fortuna y los bienes materiales. También es símbolo de libertad y es el nawal de las aves.",
+    "descripcion":"Simboliza el pájaro sagrado Q’uq’umatz. Este día es propicio para pedir por la abundancia de los bienes como el dinero. Se quema el ajonjolí y el chocolate como ofrendas a Ajaw. Se encienden candelas de colmena pura y se le pide a Ajaw un buen negocio. Tz’ikin significa pájaro y simboliza la intermediación entre los seres humanos y Ajaw, representado por todo lo que hay en el espacio: el aire, las nubes, el frío y el calor. Son fuerzas invisibles, pero que El Corazón del Cielo y El Corazón de la Tierra las ha puesto a nuestro servicio y protección. También es un día de desarrollo espiritual y, por tanto, de la plena realización humana. Es el día para agradecer los bienes materiales principalmente lo relacionado a dinero. Sin embargo, al no agradecer estos favores también puede traer la miseria. "
+},{
+    "id":1,
+    "imagen": "Ajmaq",
+    "nombre":"Ajmaq",
+    "significado":"Búho, falta o culpa",
+    "caracteristicas": "Esta palabra significa pecador en K’iche’. Es el día de los pecadores.",
+    "descripcion":"Este día se dedica a pedir perdón por los pecados y por los pecadores. Es el día dedicado a los difuntos. El pecado es una columna de humo que nos oculta delante de la presencia de Dios. Nuestros antepasados dijeron: “que el pecado es la ofensa que se hace directamente a Dios. No creer, no servir, no alabar al Corazón del Cielo, al corazón de la Tierra. Mak es ofensa a Dios y Wuqub’ qak’ix es ofensa al prójimo”."
+},{
+    "id":2,
+    "imagen": "Noj",
+    "nombre":"No'j",
+    "significado":"Idea o sabiduria",
+    "caracteristicas": "Es la sabiduría y el conocimiento. Es el nawal de la inteligencia.",
+    "descripcion":"Es el buen consejo, según los abuelos y abuelas. Es la sabiduría que viene del Formador y Creador. También es uno de los Cargadores del Tiempo. Día propicio para agradecer el conocimiento y pedir buenos pensamientos."
+
+},{
+    "id":3,
+    "imagen": "Tijax",
+    "nombre":"Tijax",
+    "significado":"Pedernal o obsidiana",
+    "caracteristicas": "Es el símbolo del pedernal. Es la energía de la persona que cura en la cultura maya.",
+    "descripcion":"Es el poder del trueno y el rayo. La persona que nace bajo la influencia de este día, puede ser un gran curandero o médico con mucha energía en las manos. Es ajq’íj, cura enfermedades físicas y psicológicas. Puede arreglar fracturas de los huesos. "
+},{
+    "id":4,
+    "imagen": "Kawoq",
+    "nombre":"Kawok",
+    "significado":"Trueno o dificultad",
+    "caracteristicas": "Es el nawal de la mujer como comadrona. Es el día de la Vara Espiritual, le Pisom Q’aq’al.",
+    "descripcion":"Es el relámpago. Es la dualidad del fuego sagrado en función de la espiritualidad maya. Es el día de la comunidad, de la familia, del grupo y de la sociedad. Es la energía que facilita las lluvias para darnos buenas cosechas, principalmente la del maíz. "
+},{
+    "id":5,
+    "imagen": "Ajpu",
+    "nombre":"Ajpu",
+    "significado":"Cerbatanero o señor principal",
+    "caracteristicas": "Es la luz y es la representación del Abuelo Sol. Significa cerbatanero, cazador, tirador y caminante. ",
+    "descripcion":"Es el día de la fuerza corporal y del triunfo del bien sobre los obstáculos. Es la representación del triunfo de Jun Ajpu e Ixbalamke sobre los señores de Xib’alb’a. Esta señal le fue dada a la abuela Ixmukane cuando retoñó el cañaveral que sembraron los dos muchachos en el patio de la casa. "
+},{
+    "id":6,
+    "imagen": "Imox",
+    "nombre":"Imox",
+    "significado":"Locura o pez",
+    "caracteristicas": "Símbolo de las fuerzas ocultas del universo manifestadas en demencia. Es el nombre de todas las cosas secretas.",
+    "descripcion":"En general, es un día de influencias negativas. Es un día peligroso. Es símbolo del hemisferio izquierdo, la parte sutil de los seres humanos, es la sensibilidad. Es la esencia de nuestra conciencia y de nuestra mente. "
+},{
+    "id":7,
+    "imagen": "Iq",
+    "nombre":"Iq'",
+    "significado":"Viento o luna",
+    "caracteristicas": "Es el viento y la vida. Es nawal de la lluvia.",
+    "descripcion":"Es el día del Corazón del Cielo y Corazón de la Tierra. Es el aire y el soplo sagrado que da fuerza y vida. En este día se le pide al viento que se lleve los sufrimientos o las enfermedades de la persona. "
+},{
+    "id":8,
+    "imagen": "Aqabal",
+    "nombre":"Aq'ab'al",
+    "significado":"Amanecer, aurora y mano",
+    "caracteristicas":"Significa amanecer, aurora, luz, claridad, nuevo día. Es la renovación de energía. Es la llegada de la luz, del crepúsculo, la luz que se asoma detrás de los cerros y montañas.",
+    "descripcion": "Es el símbolo de la mano y de la aurora formada por los primeros rayos del sol que se asoman sobre las montañas para disipar las tinieblas y la oscuridad de la noche. "
+},{
+    "id":9,
+    "imagen": "Kat",
+    "nombre":"K'at",
+    "significado":"Red, cautiverio o iguana",
+    "caracteristicas": " Está relacionado con la palabra k’atik que significa arder. Símbolo del fuego y de la red. En el ritual se hace mención del día como tiempo para el enredo y el desenredo. Es el que enreda y desenreda la vida. ",
+    "descripcion":"Es la red donde se guarda la mazorca. La red con la que se pesca. La red donde mueren los peces. Significa cautiverio y ausencia de libertad. Signo de opresión que se ejerce sobre una comunidad. "
+},{
+    "id":10,
+    "imagen": "Kan",
+    "nombre":"Kan",
+    "significado":"Serpiente emplumada",
+    "caracteristicas": "Significa movimiento, Es el símbolo de la Gran Energía que creó el Universo.",
+    "descripcion":"Es la Serpiente Emplumada o Q’uq’umatz. Es la evaluación humana y el desarrollo espiritual. Es la Sabiduría y el ciclo del tiempo. Es guardián del bosque. Es el día de la transformación. "
+},{
+    "id":11,
+    "imagen": "Kame",
+    "nombre":"Kame",
+    "significado":"Muerte o dueño de la oscuridad",
+    "caracteristicas": "Es el símbolo de la muerte. Símbolo de la disolución final de todas las cosas, buenas y malas.",
+    "descripcion":"Significa tecolote y muerte. Es el renacimiento. Significado que se expresa a través de los sagrados granos de Tz’ite’ o Palo de Pito. Es día propicio para pedir por la salud de los enfermos y para hacer ofrendas porque progrese el negocio."
+},{
+    "id":12,
+    "imagen": "Kej",
+    "nombre":"Kej",
+    "significado":"Venado",
+    "caracteristicas": "El nahual es muy masculino y si una mujer nace en este día, tiene el carácter y voz fuertes y es de alguna manera varonil. ",
+    "descripcion":"Simboliza venado, los cuatro sostenes, los cuatro pilares, es decir los cuatro puntos cardinales. Es el día fuerte y bueno. Es un día que aplasta. Es un día que demuestra su fuerza y su poder. "
+},{
+    "id":13,
+    "imagen": "Qanil",
+    "nombre":"Q'anil",
+    "significado":"Semilla, simiente o conejo",
+    "caracteristicas": "Este es un día propicio para las rogativas que se hacen con relación al maíz y para darle gracias a la divinidad de la tierra, por la cosecha de maíz. ",
+    "descripcion":"Simboliza los cuatro colores del maíz existentes en Meso América: rojo, negro, blanco y amarillo. Los cuatro colores de la piel de la humanidad. Los cuatro puntos cardinales del universo. En este día se pide buena cosecha. Es el día del agricultor."
+},{
+    "id":14,
+    "imagen": "Toj",
+    "nombre":"Toj",
+    "significado":"Ofrenda, pago o lluvia",
+    "caracteristicas": "Significa pago, ofrenda y agradecimiento. Se ponen presentes para el pago de alguna culpa o para enmendar algún error. ",
+    "descripcion":"Es el día especial de las ofrendas. Se agradece el sol, el agua, el aire, el alimento y todo lo que nos rodea y lo que hemos recibido de la Madre Tierra. Los que nacen en Toj, algunas veces, son los que pagan la deuda de la familia, por eso es que pueden sufrir problemas de salud. "
+},{
+    "id":15,
+    "imagen": "Tzi",
+    "nombre":"Tz'i'",
+    "significado":"Perro o mapache",
+    "caracteristicas": "El antiguo significado de este Nahual es tepescuintle. En idioma k’iche’ es Lalo.",
+    "descripcion":"Es el guardián de la milpa de la abuela Ixmukane de donde Ixk’ik’ trajo la red llena de mazorcas, y que le ayudó a cumplir con su tarea de una manera mágica. En el Popol Wuj significa Jun Ajpu Wuch’, cazador tacuacín y Jun Ajpu Utiw, cazador coyote. También es guardián de los cerros, las montañas, las veredas y los barrancos. "
+},{
+    "id":16,
+    "imagen": "Batz",
+    "nombre":"B'atz'",
+    "significado":"Mono o hilo",
+    "caracteristicas": "Es el símbolo del hombre y de la humanidad, de la realización del hombre. ",
+    "descripcion":"Símbolo de continuidad con el pasado, como se ha englobado dentro del ritual. “Un buen día, de la perpetración de las ceremonias y costumbres de nuestros antepasados. "
+},{
+    "id":17,
+    "imagen": "E",
+    "nombre":"E'",
+    "significado":"Camino o diente",
+    "caracteristicas": " Simboliza el camino y el destino. Es el guía. Es el que nos lleva a un punto fijo. Uno de los Cargadores del Tiempo. Es la protección de los viajeros y caminantes. Conduce la vida espiritual y material. ",
+    "descripcion":"Es el que hace posible la realización humana en todos los órdenes y en todas las manifestaciones. Pero también puede simbolizar los obstáculos con que los seres humanos se tropiezan en la continua búsqueda de esa realización. "
+},{
+    "id":18,
+    "imagen": "Aj",
+    "nombre":"Aj",
+    "significado":"Caña o cañaveral",
+    "caracteristicas": "Simboliza caña veral y milpa. Todo lo que se relaciona al hogar y la familia. ",
+    "descripcion":"También es el día de la enfermedad debilidad en el tejido óseo, pero de mucha energía espiritual. Es el hogar, la casa, todo lo que se relaciona con la casa. Los que nacen en Aj pueden ser sacerdotes mayas. "
+},{
+    "id":19,
+    "imagen": "Ix",
+    "nombre":"I'x",
+    "significado":"Jaguar",
+    "caracteristicas": "Es el símbolo y energía de la Madre Tierra.",
+    "descripcion":"Representa los lugares o centros ceremoniales donde se llevan a cabo las ceremonias. Son los cerros, las montañas, las planicies. Significa Jaguar."
+}
+]
