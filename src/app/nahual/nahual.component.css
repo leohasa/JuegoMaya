@@ -1,0 +1,19 @@
+.card {
+  align-items: center;
+  border-color: #223d82;
+}
+.card-img-top {
+  width: 20rem;
+  pointer-events: none;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-image: linear-gradient(135deg, #223d82 40%, #822f4e 100%);
+}
+
+button:hover {
+  transform: scale(0.95);
+}
