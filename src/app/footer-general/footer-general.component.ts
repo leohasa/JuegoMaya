@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 <footer class="text-center text-white fixed-bottom" >
       <!-- Copyright -->
       <div class="text-center text-white p-3" id="copyright">
-        © 2021 Copyright Teoria de Sistemas 2 on
+        © 2022 Copyright Teoria de Sistemas 2 on
         <a href="https://github.com/L2AsHdz/JuegoMaya.git" class="text-reset" target="_blank" id="githubURL">
           <i class="fab fa-github"></i>
         </a>
