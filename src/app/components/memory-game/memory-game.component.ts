@@ -17,4 +17,8 @@ export class MemoryGameComponent implements OnInit {
     ngOnInit(): void {
         this.localStorage.setItem('started', 'false');
     }
+
+    removeWin() {
+        this.localStorage.removeItem('win');
+    }
 }

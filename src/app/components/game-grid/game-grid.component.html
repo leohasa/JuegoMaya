@@ -1,24 +1,7 @@
 <div *ngFor="let t of tarjetas; let i = index" class="row">
     <div *ngFor="let tile of tarjetas; let j = index" class="col bg-secondary border">
         <!-- <app-tile-item [tile]="tile"></app-tile-item> -->
-        <app-card-game [card]="randomCards[getIndex(i, j)]" [index]="getIndex(i,j)"></app-card-game>
+        <app-card-game [card]="randomCards[getIndex(i, j)]" [index]="getIndex(i,j)" (salida)="subscribeDataService($event)"></app-card-game>
     </div>
 </div>
 <app-modal [card]="cardInfo"></app-modal>
-<div class="modal fade" id="modalInfo2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-md">
-        <div class="modal-content">
-        <div class="modal-header">
-            <h4 class="modal-title" id="exampleModalLabel">Informacion</h4>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <h6>Felicidades ha logrado encontrar todas las parejas de kines y uinales.</h6>
-        </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        </div>
-        </div>
-    </div>
-</div>
-<button id="btnModalInfo2" [hidden]="true" type="button" class="btn btn-primary d-none" data-bs-toggle="modal" data-bs-target="#modalInfo2"></button>
