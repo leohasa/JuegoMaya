@@ -14,6 +14,8 @@ import { BodyGeneralComponent } from './body-general/body-general.component';
 import { FooterGeneralComponent } from './footer-general/footer-general.component';
 import { AdivinadorComponent } from './adivinador/adivinador.component';
 import { NahualComponent } from './nahual/nahual.component';
+import { BotonDinamicoComponent } from './boton-dinamico/boton-dinamico.component';
+import { JuegoEnlaceComponent } from './juegoEnlace/juegoEnlace.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,8 +27,9 @@ import { NahualComponent } from './nahual/nahual.component';
     BodyGeneralComponent,
     FooterGeneralComponent,
     AdivinadorComponent,
-    NahualComponent
-
+    NahualComponent,
+    BotonDinamicoComponent,
+    JuegoEnlaceComponent
   ],
   imports: [
     BrowserModule,
