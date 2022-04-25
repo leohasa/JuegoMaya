@@ -23,6 +23,7 @@ constructor(private nahualService: NahualService, private router: Router, privat
 
   newGame() {
     this.router.navigate(['adivina']);
+    this.randomNahuales = this.nahualService.getRandomNahual();
     this.viewport.scrollToPosition([0, 0]);
   }
 
