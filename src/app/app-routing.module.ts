@@ -4,16 +4,18 @@ import { JuegoEnlaceComponent } from './juegoEnlace/juegoEnlace.component';
 import { CalcComponent } from './mathematics/calc/calc.component';
 import { MathematicsComponent } from './mathematics/mathematics.component';
 import { NumeracionComponent } from './mathematics/numeracion/numeracion.component';
+import { MemoryGameComponent } from './components/memory-game/memory-game.component';
 
 const routes: Routes = [
-  { path: 'math', component: MathematicsComponent },
-  { path: 'math/num', component: NumeracionComponent },
-  { path: 'math/calc', component: CalcComponent },
-  { path: 'juegoEnlazar', component: JuegoEnlaceComponent }
+    { path: 'math', component: MathematicsComponent },
+    { path: 'math/num', component: NumeracionComponent },
+    { path: 'math/calc', component: CalcComponent },
+    { path: 'juegoEnlazar', component: JuegoEnlaceComponent },
+    { path: 'memory', component: MemoryGameComponent },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forRoot(routes)],
+    exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
