@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { NahualComponent } from '../nahual/nahual.component';
 import { Nahual } from '../model/nahual';
 import { NahualService } from '../service/nahual.service';
+import { Router } from '@angular/router';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-adivinador',
@@ -12,12 +13,17 @@ export class AdivinadorComponent implements OnInit {
 
   randomNahuales: Array<Nahual>;
 
-constructor(private nahualService: NahualService) 
+constructor(private nahualService: NahualService, private router: Router, private readonly viewport: ViewportScroller)
 { }
 
   ngOnInit(): void {
    this.randomNahuales = this.nahualService.getRandomNahual();
    console.log(this.randomNahuales);
+  }
+
+  newGame() {
+    this.router.navigate(['adivina']);
+    this.viewport.scrollToPosition([0, 0]);
   }
 
 }
